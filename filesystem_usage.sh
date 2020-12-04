@@ -94,7 +94,7 @@ echo $line | awk '{print $2}' >> $WEB_DIR/report.html
 echo "</td><td align='center'>" >> $WEB_DIR/report.html
 echo $line | awk '{print $3}' >> $WEB_DIR/report.html
 echo "</td></tr>" >> $WEB_DIR/report.html
-done < <(ps -eo %mem,%cpu,comm --sort=-%mem | head -n 6)
+done < <(ps -eo %mem,%cpu,comm --sort=-%mem | head -n 10)
 echo "</table></BODY></HTML>" >> $WEB_DIR/report.html
 ##################################################
 
