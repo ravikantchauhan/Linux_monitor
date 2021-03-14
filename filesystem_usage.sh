@@ -1,7 +1,6 @@
 #!/bin/bash
 # Sample script to demonstrate the creation of an HTML report using shell scripting
 # Web directory
-reboot
 WEB_DIR=/var/www/html
 # A little CSS and table layout to make the report look a little nicer
 echo "<HTML>
